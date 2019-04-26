@@ -22,7 +22,7 @@ let didSearch = false;
  */
 const Search = (handleSearch, zip) => {
   // only call the api when the zip is 5 characters long and !didSearch
-  if (!didSearch && zip.length == 5) {
+  if (!didSearch && zip.length === 5) {
     didSearch = true;
     handleSearch();
   }
