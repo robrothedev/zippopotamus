@@ -1,3 +1,8 @@
+/**
+ * App.js
+ *
+ * HOC for the app layout
+ */
 import React from "react";
 import "./App.css";
 import { Card, CardContent, Typography } from "@material-ui/core";

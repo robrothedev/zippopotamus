@@ -1,4 +1,6 @@
 /**
+ * ZipSearchHandler.js
+ *
  * Reusable state and api handler for rendered props
  */
 import { Component } from "react";
@@ -18,14 +20,14 @@ class ZipSearchHandler extends Component {
   handleChange = e => {
     let val = e.target.value;
     // cleared the input so reset
-    if (val.length == 0) return this.setState(defaultState);
+    if (val.length === 0) return this.setState(defaultState);
 
     // only allowing 5 characters to update the zip
     if (val.length <= 5) return this.setState({ notFound: false, zip: val });
   };
 
   /**
-   * Called from rendered props to call the api
+   * Called from rendered props to make an api call
    */
   handleSearch = async () => {
     let res = await ZipApi.search(this.state.zip);

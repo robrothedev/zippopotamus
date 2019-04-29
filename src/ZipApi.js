@@ -1,4 +1,6 @@
 /**
+ * ZipApi.js
+ *
  * Api wrapper to handle the call to search for city and state based
  * on a zip code
  */

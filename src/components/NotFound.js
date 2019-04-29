@@ -1,3 +1,9 @@
+/**
+ * NotFound.js
+ *
+ * MUI snackbar to let the user know that no results were found from the zip code
+ * they had entered in
+ */
 import React from "react";
 import { withStyles } from "@material-ui/core/styles";
 import { IconButton, Snackbar } from "@material-ui/core";

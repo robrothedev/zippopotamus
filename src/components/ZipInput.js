@@ -1,4 +1,6 @@
 /**
+ * ZipInput.js
+ *
  * Zip input to handle the city and state search
  */
 import React from "react";

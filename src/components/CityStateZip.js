@@ -1,3 +1,9 @@
+/**
+ * CityStateZip.js
+ *
+ * Inputs for the zip to enter and the city and state results
+ * if applicable
+ */
 import React from "react";
 import PropTypes from "prop-types";
 import NotFound from "./NotFound";
@@ -23,6 +29,7 @@ const CityStateZip = ({ data }) => {
 };
 
 CityStateZip.propTypes = {
+  // data returned from the api call
   data: PropTypes.object
 };
 

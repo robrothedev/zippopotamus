@@ -1,4 +1,6 @@
 /**
+ * GoogleMap.js
+ *
  * Google Map iFrame component using lat and long to create a url
  * to display a map
  */
